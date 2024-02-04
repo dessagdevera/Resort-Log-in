@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif, Verdana;
+}
+body {
+  display: flex;
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 50%;
+  padding: 50px;
+  position: relative;
+  background-color: #ffffff8d;
+  background-attachment: fixed;
+  background-size: contain;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: 300;
+  font-size: clamp(25px, 2.5vw, 4rem);
+}
+form {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+input {
+  /* flex: 1; */
+  background-color: transparent;
+
+  padding: 10px 5px;
+  /* width: 320px; */
+  width: clamp(200px, 25vw, 290px);
+  border: none;
+  border-bottom: 1.6px solid black;
+  outline: none;
+}
+::placeholder {
+  color: #304e5b;
+}
+
+.log-in {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  top: 15px;
+}
+button {
+  display: flex;
+  position: relative;
+  top: 15px;
+  color: black;
+  /* width: 260px; */
+  width: clamp(200px, 20vw, 260px);
+  /* fix */
+  padding: 7px;
+  background-color: white;
+  border: 1px solid #3183a3;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+/* states fix */
+button:visited {
+  background-color: red;
+}
+/* button:hover {
+  opacity: 0.7;
+} */
+button:active {
+  background-color: #38708d;
+  transition: 0s;
+}
+a {
+  color: #3183a3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.forgot {
+  margin-left: auto;
+}
+svg {
+  width: 25px;
+  margin-inline: 5px;
+}
+.inp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signup {
+  background-color: #3183a3;
+  color: white;
+  padding: 9px;
+}
+.log-in a:active {
+}
+
+.signup:hover {
+  background-color: #297089;
+}
+
+.google:hover,
+.apple:hover {
+  color: white;
+  background-color: #3692b3;
+}
