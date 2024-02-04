@@ -4,7 +4,7 @@
 
 ### Output:
 #### Design only, no data validation
-[Live Demo](https://dessagdevera.github.io/Digital-Clock/)
+[Live Demo](https://dessagdevera.github.io/Resort-Log-in/)
 
 
 <img src="/assets/output.png">
